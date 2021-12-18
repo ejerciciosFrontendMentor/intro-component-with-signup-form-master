@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="content">
+      <header class="header">
+        <h1 class="header__title">
+          Learn to code by watching others
+        </h1>
+        <p class="header__text">
+          See how experienced developers solve problems in real-time.
+          Watching scripted tutorials is great, but understanding how
+          developers think is invaluable.
+        </p>
+      </header>
+      <main class="main">
+        <div class="main__contentMsg">
+          <article>
+            <p class="main__contentMsgText">
+              <span class="main__contentMsgTextColor"
+                >Try it free 7 days
+              </span>
+              then $20/mo. thereafter
+            </p>
+          </article>
+        </div>
+        <article class="main__contentForm">
+          <form action="#" class="form">
+            <div class="form__contentInput">
+              <input
+                type="text"
+                name="FirstName"
+                class="form__input"
+                placeholder="First Name"
+              />
+              <div class="form__iconErr">
+                <img src="images/icon-error.svg" alt="icom error" />
+              </div>
+              <article class="form__conMmsgErr">
+                <p class="form__textErr">
+                  First Name cannot be empty
+                </p>
+              </article>
+            </div>
+            <div class="form__contentInput">
+              <input
+                type="text"
+                name="LastName"
+                id=""
+                class="form__input"
+                placeholder="Last Name"
+              />
+              <div class="form__iconErr">
+                <img src="images/icon-error.svg" alt="icom error" />
+              </div>
+              <article class="form__conMmsgErr">
+                <p class="form__textErr">Last Name cannot be empty</p>
+              </article>
+            </div>
+            <div class="form__contentInput">
+              <input
+                type="text"
+                name="EmailAddress"
+                class="form__input"
+                placeholder="Email Address"
+              />
+              <div class="form__iconErr">
+                <img src="images/icon-error.svg" alt="icom error" />
+              </div>
+              <article class="form__conMmsgErr">
+                <p class="form__textErr">
+                  Email Address cannot be empty
+                </p>
+              </article>
+            </div>
+            <div class="form__contentInput">
+              <input
+                type="text"
+                name="Password"
+                class="form__input"
+                placeholder="Password"
+              />
+              <div class="form__iconErr">
+                <img src="images/icon-error.svg" alt="icom error" />
+              </div>
+              <article class="form__conMmsgErr">
+                <p class="form__textErr">Password cannot be empty</p>
+              </article>
+            </div>
+              <button type="submit" class="form__btn">
+                Claim your free trial
+              </button>
+            <article>
+              <p class="form__textServices">
+                By clicking the button, you are agreeing to our<a
+                  href="#"
+                  class="form__linkServices"
+                  >Terms and Services</a
+                >
+              </p>
+            </article>
+          </form>
+        </article>
+      </main>
+    </main>
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by<a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+        >
+          Frontend Mentor</a
+        >. Coded by
+        <a class="attribution__link attribution__link--name" href="#">
+          José Esteves</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.footer {
+  padding: 0.625rem;
+  position: absolute;
+  bottom: 0;
+  font-family: sans-serif;
+}
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+  color: #000;
+  &__link {
+    font-weight: bold;
+    color: hsl(228, 45%, 44%);
+    &--name {
+      text-decoration: none;
+      color: #333;
+    }
+  }
+}

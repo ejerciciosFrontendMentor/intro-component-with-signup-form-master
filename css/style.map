@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"@use \"body/body\";\r\n@use \"footer/footer\";"
+	],
+	"names": [],
+	"mappings": "AAAA,IAAI,CAAJ,WAAI;AACJ,IAAI,CAAJ,eAAI"
+}

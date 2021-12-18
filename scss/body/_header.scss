@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  height: auto;
+  padding-top: 87px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  &__title {
+    margin-top: 0;
+    color: inherit;
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+  &__text {
+    margin-top: 15px;
+    font-weight: 500;
+    color: inherit;
+  }
+}

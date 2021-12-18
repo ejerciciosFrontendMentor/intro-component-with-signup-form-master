@@ -1,0 +1,27 @@
+.main{
+  margin-top: 30px;
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  &__contentMsg{
+    width: 100%;
+    padding: 15px 40px;
+    background-color: var(--color-Blue);
+    border-radius: 10px;
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.3);
+  }
+  &__contentMsgText{
+    margin: 0;
+    text-align: center;
+    color: var(--color-GrayishBlue);
+  }
+  &__contentMsgTextColor{
+    color: #FFF;
+  }
+  &__contentForm{
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+  }
+}
