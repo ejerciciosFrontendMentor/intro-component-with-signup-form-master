@@ -8,20 +8,21 @@
   }
   &__input {
     width: 100%;
-    padding: 15px 20px;
-    border-radius: 5px;
+    padding: 0.9375rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 0.3125rem;
     outline: 0;
-    border: 1px solid var(--color-GrayishBlue);
+    border: 0.0625rem solid var(--color-GrayishBlue);
     &::placeholder {
       font-weight: 600;
     }
-    &--show{
-      margin-bottom: 10px;
+    &--show {
+      margin-bottom: 0.625rem;
     }
   }
   &__iconErr {
-    width: 50px;
-    height: 47px;
+    width: 3.125rem;
+    height: 2.9375rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,10 +40,10 @@
   &__conMmsgErr {
     position: absolute;
     right: 0;
-    bottom: -5px;
+    bottom: -0.3125rem;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-10px);
+    transform: translateY(-0.625rem);
     transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
     &--show {
       opacity: 1;
@@ -56,27 +57,34 @@
     font-weight: 500;
     margin: 0;
   }
-  &__btn{
+  &__btn {
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
     text-align: center;
     font-weight: 300;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     color: #fff;
     border: 0;
-    box-shadow:0 3px 0 #238a5d;
+    box-shadow: 0 0.1875rem 0 #238a5d;
     background-color: var(--color-Green);
-text-transform: uppercase;
-font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color .3s;
+    cursor: pointer;
+    &:active{
+    background-color: #42e69f;
+    }
+    
   }
-  &__textServices{
+  &__textServices {
     margin: 0;
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: 500;
     text-align: center;
     color: var(--color-GrayishBlue);
   }
-  &__linkServices{
+  &__linkServices {
     text-decoration: none;
     font-weight: 700;
     color: var(--color-Red);

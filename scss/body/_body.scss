@@ -4,12 +4,18 @@
 *::before {
   box-sizing: border-box;
 }
+html{
+  font-size: 16px;
+  @media screen and (min-width: 2560px) {
+    font-size: 28px;
+  }
+}
 body {
   width: 100%;
   min-height: 100vh;
   margin: 0;
-  font-size: 16px;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
+  font-size: 1rem;
   position: relative;
   display: grid;
   place-items: center;
@@ -25,11 +31,31 @@ body {
     top: 0;
     bottom: 0;
     z-index: -1;
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/bg-intro-desktop.png);
+    }
+    @media screen and (min-width: 2560px) {
+      background-size: cover;
+    }
   }
 }
-// Weights: 400, 500, 600, 700 
-.content{
-  width: 375px;
-  padding-left: 30px;
-  padding-right: 30px;
+// Weights: 400, 500, 600, 700
+.content {
+  width: 23.4375rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "header" "main";
+  gap: 1.875rem;
+  @media screen and (min-width: 1440px) {
+  width: 75rem;
+  gap: 3.75rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "header main";
+  }
 }
