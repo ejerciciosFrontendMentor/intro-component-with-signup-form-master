@@ -51,23 +51,21 @@
         </div>
         <article class="main__contentForm">
           <form action="#" class="form" id="form">
-            <div class="form__contentInput">
+            <div
+              class="form__contentInput "
+              data-error="First Name cannot be empty"
+            >
               <input
                 type="text"
                 name="FirstName"
                 class="form__input"
                 placeholder="First Name"
               />
-              <div class="form__iconErr">
-                <img src="images/icon-error.svg" alt="icom error" />
-              </div>
-              <article class="form__conMmsgErr">
-                <p class="form__textErr">
-                  First Name cannot be empty
-                </p>
-              </article>
             </div>
-            <div class="form__contentInput">
+            <div
+              class="form__contentInput "
+              data-error="Last Name cannot be empty"
+            >
               <input
                 type="text"
                 name="LastName"
@@ -75,46 +73,34 @@
                 class="form__input"
                 placeholder="Last Name"
               />
-              <div class="form__iconErr">
-                <img src="images/icon-error.svg" alt="icom error" />
-              </div>
-              <article class="form__conMmsgErr">
-                <p class="form__textErr">Last Name cannot be empty</p>
-              </article>
             </div>
-            <div class="form__contentInput">
+            <div
+              class="form__contentInput "
+              data-error="Looks like this is not an email"
+            >
               <input
                 type="text"
                 name="EmailAddress"
                 class="form__input"
                 placeholder="Email Address"
               />
-              <div class="form__iconErr">
-                <img src="images/icon-error.svg" alt="icom error" />
-              </div>
-              <article class="form__conMmsgErr">
-                <p class="form__textErr">
-                  Email Address cannot be empty
-                </p>
-              </article>
             </div>
-            <div class="form__contentInput">
+            <div
+              class="form__contentInput"
+              data-error="Password cannot be empty"
+            >
               <input
-                type="text"
+                type="password"
                 name="Password"
                 class="form__input"
                 placeholder="Password"
               />
-              <div class="form__iconErr">
-                <img src="images/icon-error.svg" alt="icom error" />
-              </div>
-              <article class="form__conMmsgErr">
-                <p class="form__textErr">Password cannot be empty</p>
-              </article>
             </div>
-              <button type="submit" class="form__btn">
-                Claim your free trial
-              </button>
+            <input
+              type="submit"
+              value="Claim your free trial"
+              class="form__btn"
+            />
             <article>
               <p class="form__textServices">
                 By clicking the button, you are agreeing to our<a
